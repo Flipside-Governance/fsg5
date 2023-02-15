@@ -207,6 +207,7 @@ body {
 
 .type {
   font-size: 60px;
+  font-weight: bold;
   white-space: pre-wrap;
 }
 
@@ -315,6 +316,10 @@ body {
   margin-bottom: 100px;
 }
 
+#dgy {
+  margin-bottom: 100px;
+}
+
 .values {
   width: 90%;
   margin: auto;
@@ -334,6 +339,8 @@ body {
   margin-top: 100px;
   width: 90%;
   margin: auto;
+  height: 420px;
+  padding: 30px;
   background-color: #000;
   border-radius: 10px;
 }
@@ -350,6 +357,7 @@ body {
 
 .values3 {
   border: 2px solid gray;
+  /* margin-top: 100px; */
   border-radius: 10px;
   width: 85%;
   min-height: 335px;
@@ -917,8 +925,8 @@ textarea {
 }
 
 .shadow {
-  margin-top: 100px;
-  margin-bottom: 90px;
+  margin-top: 50px;
+  margin-bottom: 100px;
   display: flex;
   justify-content: center;
   filter: drop-shadow(5px 5px 155px #fff) drop-shadow(-10px -10px 50px #fff);
@@ -926,25 +934,36 @@ textarea {
 }
 
 .triangle-wrapper {
-  width: 20vw;
-  height: 20vh;
+  width: 15vw;
+  height: 15vh;
   clip-path: polygon(0 0, 50% 100%, 100% 0);
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-animation: pulsate-fwd 2s ease-in-out infinite both;
-  animation: pulsate-fwd 2s ease-in-out infinite both;
+  /* -webkit-animation: pulsate-fwd 2s ease-in-out infinite both;
+  animation: pulsate-fwd 2s ease-in-out infinite both; */
 }
 
-.triangle {
+.triangle-wrapper2 {
+  width: 15vw;
+  height: 15vh;
+  position: absolute;
+  margin-top: 4%;
+  clip-path: polygon(0 0, 50% 100%, 100% 0);
+  background-color: #fff;
+  /* -webkit-animation: pulsate-fwd 2s ease-in-out infinite both;
+  animation: pulsate-fwd 2s ease-in-out infinite both; */
+}
+
+/* .triangle {
   width: 15vw;
   height: 15vh;
   background-color: black;
   clip-path: polygon(0 0, 50% 100%, 100% 0);
   margin-top: -10px;
   filter: blur(70px) drop-shadow(-10px -10px 75px #fff);
-}
+} */
 
 .plogos {
   width: 211px;

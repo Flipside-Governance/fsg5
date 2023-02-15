@@ -139,9 +139,8 @@ function About() {
           </div>
         </div>
         <div class="shadow">
-          <div class="triangle-wrapper">
-            <div class="triangle"></div>
-          </div>
+          <div class="triangle-wrapper"></div>
+          <div class="triangle-wrapper2"></div>
         </div>
         <div className="values3">
           <div className="title-box">OUR PARTNERS</div>

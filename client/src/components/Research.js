@@ -89,6 +89,39 @@ function Research() {
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
       <div className="values55">
+        <div className="toggler">
+          <ThemeProvider theme={theme}>
+            <ToggleButtonGroup
+              color="neutral"
+              value={alignment}
+              exclusive
+              onChange={handleChange}
+            >
+              <ToggleButton
+                value="research"
+                sx={{
+                  fontFamily: "inherit",
+                  color: "#f5f5f5",
+                  backgroundColor: "#171b20",
+                  borderRadius: "10px",
+                }}
+              >
+                LATEST RESEARCH
+              </ToggleButton>
+              <ToggleButton
+                value="recaps"
+                sx={{
+                  fontFamily: "inherit",
+                  color: "#f5f5f5",
+                  backgroundColor: "#171b20",
+                  borderRadius: "10px",
+                }}
+              >
+                WEEKLY ACTIVITY
+              </ToggleButton>
+            </ToggleButtonGroup>
+          </ThemeProvider>
+        </div>
         {alignment === "research" ? (
           <>
             <div className="research-cards">
@@ -226,39 +259,6 @@ function Research() {
             </div>
           </>
         )}
-        <div className="toggler">
-          <ThemeProvider theme={theme}>
-            <ToggleButtonGroup
-              color="neutral"
-              value={alignment}
-              exclusive
-              onChange={handleChange}
-            >
-              <ToggleButton
-                value="research"
-                sx={{
-                  fontFamily: "inherit",
-                  color: "#f5f5f5",
-                  backgroundColor: "#171b20",
-                  borderRadius: "10px",
-                }}
-              >
-                LATEST RESEARCH
-              </ToggleButton>
-              <ToggleButton
-                value="recaps"
-                sx={{
-                  fontFamily: "inherit",
-                  color: "#f5f5f5",
-                  backgroundColor: "#171b20",
-                  borderRadius: "10px",
-                }}
-              >
-                WEEKLY ACTIVITY
-              </ToggleButton>
-            </ToggleButtonGroup>
-          </ThemeProvider>
-        </div>
       </div>
       {/* </Fade> */}
     </div>

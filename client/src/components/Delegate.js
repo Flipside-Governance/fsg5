@@ -14,11 +14,11 @@ function Delegate() {
       <div>
         <h1 className="bigletters">DELEGATE TO FLIPSIDE</h1>
         <div className="typewriter2">
-          <p className="type2">
+          <p className="type2" id="dgy">
             Through active participation, we've developed key understandings
             around the needs and flow of information in the governance process.
-            Our dedication to support and contribute allows us to improve outcomes for everyone, and we'd be honored to
-            vote on your behalf.
+            Our dedication to support and contribute allows us to improve
+            outcomes for everyone, and we'd be honored to vote on your behalf.
           </p>
         </div>
       </div>
