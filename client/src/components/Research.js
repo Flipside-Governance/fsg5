@@ -77,7 +77,7 @@ function Research() {
     <div className="intro3">
       {/* <Slide direction="up" in={true} mountOnEnter style={{ transitionDelay: "100ms" }}> */}
       <div>
-        <h1 className="bigletters">04: RESEARCH & ANALYSIS</h1>
+        <h1 className="bigletters">RESEARCH & ANALYSIS</h1>
         <div className="typewriter2" id="searchy">
           <p className="type2">
             By leveraging our experience in DeFi, political science, traditional

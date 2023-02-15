@@ -28,11 +28,12 @@ function About() {
     <div className="intro">
       {/* <Slide direction="up" in={true} mountOnEnter style={{ transitionDelay: "100ms" }}> */}
       <div>
-        <h1 className="bigletters">02: WHAT WE DO</h1>
+        <h1 className="bigletters">WHAT WE DO</h1>
         <div className="typewriter2" id="servy">
           <p className="type2">
-            To us, participating in governance is much more than acquiring
-            tokens and voting on proposals. We bring much more to the table.
+            Participating in governance goes far beyond acquiring tokens and
+            voting on proposals. Our team provides value in a number of
+            different ways to ensure our partners reach their full potential.
           </p>
         </div>
       </div>
@@ -148,12 +149,12 @@ function About() {
             <img src={aavegray} className="alogos" alt="aave" />
             <img src={mkrgray} className="plogos" alt="maker" />
             <img src={opgray} className="plogos" alt="op" />
-            <img src={hopgray} className="alogos" alt="hop" />
+            <img src={hopgray} className="xlogos" alt="hop" />
           </div>
           <div className="bot-service2">
             <img src={axelargray} className="plogos" alt="axelar" />
-            <img src={osmogray} className="plogos" alt="osmo" />
-            <img src={cosmosgray} className="plogos" alt="cosmos" />
+            <img src={osmogray} className="zlogos" alt="osmo" />
+            <img src={cosmosgray} className="wlogos" alt="cosmos" />
             <img src={mndegray} className="plogos" alt="mnde" />
             <img src={junogray} className="alogos" alt="juno" />
           </div>

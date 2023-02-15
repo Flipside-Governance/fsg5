@@ -17,7 +17,7 @@ function About() {
   return (
     <div className="intro">
       <div>
-        <h1 className="bigletters">03: BY THE NUMBERS</h1>
+        <h1 className="bigletters">BY THE NUMBERS</h1>
         <div className="typewriter2" id="tivy">
           <p className="type2">
             Our partners trust us to act in their best interest and as good

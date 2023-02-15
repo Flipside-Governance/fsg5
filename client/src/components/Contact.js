@@ -22,7 +22,7 @@ function Contact() {
         style={{ transitionDelay: "100ms" }}
       > */}
       <div>
-        <h1 className="bigletters">07: CONTACT US</h1>
+        <h1 className="bigletters">CONTACT US</h1>
         <div className="typewriter4">
           <p className="type2">
             Want to get in touch? Drop us a note below! We'd be happy to chat

@@ -48,7 +48,7 @@ body {
   margin: auto;
   padding: 30px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .nav-main {
@@ -56,11 +56,16 @@ body {
   justify-content: space-between;
   height: 50px;
   align-items: center;
-  background: rgba(45, 45, 45, 0.226);
+  /* background: rgba(45, 45, 45, 0.226);
   backdrop-filter: saturate(180%) blur(8px);
   border-radius: 10px;
-  transition: 0.3s ease;
-  box-shadow: 0px 0px 12px 2px #f5f5f5;
+  transition: 0.3s ease; */
+  /* box-shadow: 0px 0px 12px 2px #f5f5f5; */
+}
+
+.fs-logo {
+  height: 50px;
+  width: 50px;
 }
 
 .navlink {
@@ -195,16 +200,18 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
-  margin-top: 40px;
-  min-height: 60px;
+  align-items: center;
+  height: 550px;
+  min-height: 70%;
 }
 
 .type {
-  font-size: 50px;
+  font-size: 60px;
+  white-space: pre-wrap;
 }
 
 .type-cursor {
-  font-size: 50px;
+  font-size: 60px;
   display: none;
 }
 
@@ -214,7 +221,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-top: 8%;
   padding-bottom: 30px;
 }
 
@@ -234,11 +241,11 @@ body {
   display: flex;
   align-items: center;
   gap: 25px;
-  background: rgba(45, 45, 45, 0.226);
+  /* background: rgba(45, 45, 45, 0.226);
   backdrop-filter: saturate(180%) blur(8px);
   border-radius: 10px;
   transition: 0.3s ease;
-  box-shadow: 0px 0px 12px 2px #f5f5f5;
+  box-shadow: 0px 0px 12px 2px #f5f5f5; */
 }
 
 .socials-ct {
@@ -257,10 +264,10 @@ body {
   gap: 10px;
   border-radius: 10px;
 
-  background: rgba(45, 45, 45, 0.226);
+  /* background: rgba(45, 45, 45, 0.226);
   backdrop-filter: saturate(180%) blur(8px);
   transition: 0.3s ease;
-  box-shadow: 0px 0px 12px 2px #f5f5f5;
+  box-shadow: 0px 0px 12px 2px #f5f5f5; */
 }
 
 .text-vert {
@@ -285,7 +292,7 @@ body {
 .type2 {
   font-size: 25px;
   display: flex;
-  text-align: justify;
+  text-align: center;
 }
 
 .type-cursor2 {
@@ -309,7 +316,10 @@ body {
 }
 
 .values {
+  width: 90%;
+  margin: auto;
   margin-top: 100px;
+  height: 420px;
   background-color: #000;
   border-radius: 10px;
 }
@@ -329,10 +339,10 @@ body {
 }
 
 .values77 {
-  margin-top: 100px;
-  height: 400px;
-  width: 90%;
+  width: 95%;
   margin: auto;
+  margin-top: 100px;
+  height: 420px;
   padding: 50px;
   background-color: #000;
   border-radius: 10px;
@@ -353,7 +363,7 @@ body {
   margin-left: 1em;
   display: inline;
   background-color: #000;
-  /* font-size: larger; */
+  font-size: larger;
   border-radius: 10px;
 }
 
@@ -648,10 +658,10 @@ body {
   height: fit-content;
   margin-bottom: 5%;
   padding-bottom: 100px;
-  background-image: url("./logos/fsbw33.png");
+  /* background-image: url("./logos/fsbw33.png");
   background-position: initial;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
   height: 100%;
   width: 100%;
   scroll-snap-align: start;
@@ -680,7 +690,7 @@ body {
   width: 100%;
   margin: auto;
   scroll-snap-align: start;
-  background-color: #000;
+  /* background-color: #000; */
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -690,7 +700,7 @@ body {
   width: 100%;
   margin: auto;
   scroll-snap-align: start;
-  background-color: #000;
+  /* background-color: #000; */
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -710,7 +720,7 @@ body {
   margin: auto;
   margin-bottom: 5%;
   scroll-snap-align: start;
-  background-color: #000;
+  /* background-color: #000; */
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -732,14 +742,15 @@ body {
 
 .contact-main {
   margin-top: 60px;
-  width: 90%;
+  width: 100%;
   height: 430px;
   margin: auto;
   display: flex;
   justify-content: center;
   background-color: #000;
   border-radius: 10px;
-  box-shadow: 0px 0px 12px 2px #f5f5f5;
+  border: 2px solid gray;
+  /* box-shadow: 0px 0px 12px 2px #f5f5f5; */
 }
 
 .contact-logo {
@@ -806,6 +817,7 @@ textarea {
 
 .bigletters {
   font-size: 55px;
+  font-weight: normal;
   text-align: center;
   margin-bottom: 5%;
 }
@@ -859,7 +871,7 @@ textarea {
 .bot-service2 {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 100px;
+  margin-top: 70px;
   margin-bottom: 50px;
 }
 
@@ -958,6 +970,51 @@ textarea {
 .alogos:hover {
   width: 145px;
   height: 41px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.xlogos {
+  width: 145px;
+  height: 48px;
+  transition: 0.4s ease-out;
+}
+
+.xlogos:hover {
+  width: 145px;
+  height: 48px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.zlogos {
+  width: 211px;
+  height: 48px;
+  transition: 0.4s ease-out;
+}
+
+.zlogos:hover {
+  width: 211px;
+  height: 48px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.wlogos {
+  width: 221px;
+  height: 48px;
+  transition: 0.4s ease-out;
+}
+
+.wlogos:hover {
+  width: 221px;
+  height: 48px;
   cursor: pointer;
   transition: 0.4s ease-out;
   -webkit-transform: scale(1.1);

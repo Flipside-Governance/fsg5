@@ -20,8 +20,8 @@ function Dashboards() {
     },
     media1: {
       height: 90,
-      width: 90,
-      borderRadius: 2,
+      width: 125,
+      borderRadius: 10,
     },
     media2: {
       boxShadow: "0px 0px 8px 0px #fff",
@@ -33,7 +33,7 @@ function Dashboards() {
     <div className="intro">
       {/* <Slide direction="up" in={true} mountOnEnter style={{ transitionDelay: "100ms" }}> */}
       <div>
-        <h1 className="bigletters">05: TOOLS & DASHBOARDS</h1>
+        <h1 className="bigletters">TOOLS & DASHBOARDS</h1>
         <div className="typewriter2" id="tooly">
           <p className="type2">
             We build tools and dashboards to help users gain a better
@@ -50,6 +50,7 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
+                minHeight: 180,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
@@ -105,6 +106,7 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
+                minHeight: 180,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
@@ -163,6 +165,7 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
+                minHeight: 180,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
@@ -210,8 +213,7 @@ function Dashboards() {
                   >
                     This dashboard was built to help the Marinade community gain
                     a better understanding of protocol governance and the MNDE
-                    token. We also monitor which validators receive the most
-                    community support.
+                    token.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -219,6 +221,7 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
+                minHeight: 180,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",

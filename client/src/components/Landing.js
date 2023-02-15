@@ -3,9 +3,15 @@ import { Link } from "react-scroll";
 import React, { useState, useEffect } from "react";
 
 import fsgwhite2 from "../logos/fsgwhite2.png";
+import fscube from "../logos/fscubewhite.png";
+
+import { motion } from "framer-motion";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAnglesDown, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import Typewriter from "typewriter-effect";
+import { Fade } from "@mui/material";
 
 import {
   faTwitter,
@@ -23,7 +29,7 @@ function Landing() {
   }, []);
 
   const listenToScroll2 = () => {
-    let heightToHideFrom = 200;
+    let heightToHideFrom = 150;
     const winScroll =
       document.body.scrollTop || document.documentElement.scrollTop;
     setHeight2(winScroll);
@@ -38,6 +44,22 @@ function Landing() {
   return (
     <div>
       <div className="header" id="header">
+        <div className="logo">
+          <a
+            href="https://flipsidecrypto.xyz/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {" "}
+            <motion.img
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              src={fscube}
+              className="fs-logo"
+              alt="flipside"
+            />{" "}
+          </a>
+        </div>
         <div className="nav-main">
           <Link
             activeClass="active"
@@ -127,7 +149,7 @@ function Landing() {
       </div>
       <div className="lander">
         <div className="landing-main">
-          <div className="logo-box">
+          {/* <div className="logo-box">
             <a
               href="https://flipsidecrypto.xyz/"
               target="_blank"
@@ -137,95 +159,97 @@ function Landing() {
               {" "}
               <img src={fsgwhite2} alt="flipside" className="fslogo" />
             </a>
+          </div> */}
+          <div className="typewriter-land">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString("FLIPSIDE GOVERNANCE").start();
+              }}
+              options={{
+                delay: 100,
+                wrapperClassName: "type",
+                cursorClassName: "type-cursor",
+              }}
+            />
           </div>
-          {/* <div className="typewriter-land">
-          <Typewriter
-            onInit={(typewriter) => {
-              typewriter.typeString("FLIPSIDE GOVERNANCE").start();
-            }}
-            options={{
-              delay: 60,
-              wrapperClassName: "type",
-              cursorClassName: "type-cursor",
-            }}
-          />
-        </div> */}
         </div>
-        {isVisible2 ? (
-          <div className="socialscroll">
-            <div className="socials">
-              <a
-                href="https://twitter.com/flipsidegov"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faTwitter}
-                  color="#f0ffff"
-                  size="lg"
-                  className="iconos"
-                />
-              </a>
-              <a
-                href="https://medium.com/flipside-governance"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faMedium}
-                  color="#f0ffff"
-                  size="lg"
-                  className="iconos"
-                />
-              </a>
-              <a
-                href="https://medium.com/flipside-governance"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faTelegram}
-                  color="#f0ffff"
-                  size="lg"
-                  className="iconos"
-                />
-              </a>
-              <a
-                href="https://medium.com/flipside-governance"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FontAwesomeIcon
-                  icon={faEnvelope}
-                  color="#f0ffff"
-                  size="lg"
-                  className="iconos"
-                />
-              </a>
+        <Fade in={true} timeout={4000} style={{ transitionDelay: "2100ms" }}>
+          {isVisible2 ? (
+            <div className="socialscroll">
+              <div className="socials">
+                <a
+                  href="https://twitter.com/flipsidegov"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faTwitter}
+                    color="#f0ffff"
+                    size="lg"
+                    className="iconos"
+                  />
+                </a>
+                <a
+                  href="https://medium.com/flipside-governance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faMedium}
+                    color="#f0ffff"
+                    size="lg"
+                    className="iconos"
+                  />
+                </a>
+                <a
+                  href="https://medium.com/flipside-governance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faTelegram}
+                    color="#f0ffff"
+                    size="lg"
+                    className="iconos"
+                  />
+                </a>
+                <a
+                  href="https://medium.com/flipside-governance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    color="#f0ffff"
+                    size="lg"
+                    className="iconos"
+                  />
+                </a>
+              </div>
+              <div className="scroll">
+                <Link
+                  activeClass="active"
+                  className="navlink2"
+                  to="about"
+                  spy={true}
+                  smooth={true}
+                  // offset={-100}
+                  duration={500}
+                >
+                  <FontAwesomeIcon
+                    icon={faAnglesDown}
+                    color="#f0ffff"
+                    size="xl"
+                    className="iconos"
+                    beatFade
+                  />
+                </Link>
+              </div>
             </div>
-            <div className="scroll">
-              <Link
-                activeClass="active"
-                className="navlink2"
-                to="about"
-                spy={true}
-                smooth={true}
-                // offset={-100}
-                duration={500}
-              >
-                <FontAwesomeIcon
-                  icon={faAnglesDown}
-                  color="#f0ffff"
-                  size="xl"
-                  className="iconos"
-                  beatFade
-                />
-              </Link>
-            </div>
-          </div>
-        ) : (
-          <div className="socialscroll2">.</div>
-        )}
+          ) : (
+            <div className="socialscroll2"></div>
+          )}
+        </Fade>
       </div>
     </div>
   );

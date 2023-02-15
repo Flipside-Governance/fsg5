@@ -79,7 +79,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="00: HOME"
+              title="HOME"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -106,7 +106,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="01: WHO WE ARE"
+              title="WHO WE ARE"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -133,7 +133,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="02: WHAT WE DO"
+              title="WHAT WE DO"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -160,7 +160,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="03: STATS"
+              title="STATS"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -187,7 +187,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="04: RESEARCH"
+              title="RESEARCH"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -215,7 +215,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="05: TOOLS"
+              title="TOOLS"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -242,7 +242,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="06: DELEGATE"
+              title="DELEGATE"
               placement="left"
               componentsProps={{
                 tooltip: {
@@ -269,7 +269,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="07: CONTACT US"
+              title="CONTACT US"
               placement="left"
               componentsProps={{
                 tooltip: {

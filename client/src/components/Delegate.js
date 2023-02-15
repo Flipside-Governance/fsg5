@@ -12,7 +12,7 @@ function Delegate() {
     <div className="intro5">
       {/* <Slide direction="up" in={true} mountOnEnter style={{ transitionDelay: "100ms" }}> */}
       <div>
-        <h1 className="bigletters">06: DELEGATE TO FLIPSIDE</h1>
+        <h1 className="bigletters">DELEGATE TO FLIPSIDE</h1>
         <div className="typewriter2">
           <p className="type2">
             Through active participation, we've developed key understandings

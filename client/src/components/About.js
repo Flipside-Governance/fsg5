@@ -9,19 +9,27 @@ function About() {
     <div className="intro">
       {/* <Slide direction="up" in={true} mountOnEnter style={{ transitionDelay: "100ms" }}> */}
       <div>
-        <h1 className="bigletters">01: WHO WE ARE</h1>
+        <h1 className="bigletters">WHO WE ARE</h1>
         <div className="typewriter2">
           <p className="type2">
-            Flipside is an ecosystem growth partner. Our governance team serves
-            as a Professional Delegate, supporting the proliferation and
-            function of decentralized organizations.
+            We are a full-time professional delegate and DAO governance team
+            dedicated to improving how DAOs operate across the entire Web3
+            ecosystem. Our team values rational, authentic discourse &
+            decision-making. Seeking open dialogue to reach the best outcomes
+            for our partners.
           </p>
         </div>
+        {/* <div className="typewriter2">
+          <p className="type2">
+            Our team values rational, authentic discourse & decision-making.
+            Seeking open dialogue to reach the best outcomes for our partners.
+          </p>
+        </div> */}
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
-      <div className="values">
-        <div class="container1">
+      {/* <div className="values"> */}
+        {/* <div class="container1">
           <div class="card">
             <h3 class="title">We are Authentic</h3>
             <div class="bar">
@@ -77,8 +85,8 @@ function About() {
               </p>
             </div>
           </div>
-        </div>
-      </div>
+        </div> */}
+      {/* </div> */}
       {/* </Fade> */}
     </div>
   );
