@@ -25,6 +25,7 @@ function Delegate() {
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
       <div className="values">
+        <div className="title-box">DELEGATE TOKENS</div>
         <div class="container2">
           <div class="card2">
             <div class="face face1">

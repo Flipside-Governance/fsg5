@@ -12,6 +12,8 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import optoken from "../logos/optoken.png";
+import dtd from "../logos/dtd.png";
 
 function Research() {
   const [blogData, setBlogData] = useState([]);
@@ -30,6 +32,23 @@ function Research() {
       },
     },
   });
+
+  const styles = {
+    media: {
+      height: 90,
+      width: 90,
+      borderRadius: 10,
+    },
+    media1: {
+      height: 90,
+      width: 125,
+      borderRadius: 10,
+    },
+    media2: {
+      boxShadow: "0px 0px 8px 0px #fff",
+      "&:hover": { boxShadow: "0px 0px 20px 0px #fff" },
+    },
+  };
 
   const responsive = {
     superLargeDesktop: {
@@ -82,46 +101,130 @@ function Research() {
           <p className="type2">
             By leveraging our experience in DeFi, political science, traditional
             finance, and data engineering, we are uniquely positioned to help
-            DAOs scale. <br/> <br/> We publish in-depth research on a weekly basis.
+            DAOs scale. <br /> <br /> We publish in-depth research on a weekly
+            basis.
           </p>
         </div>
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
-      <div className="toggler">
-        <ThemeProvider theme={theme}>
-          <ToggleButtonGroup
-            color="neutral"
-            value={alignment}
-            exclusive
-            onChange={handleChange}
-          >
-            <ToggleButton
-              value="research"
-              sx={{
-                fontFamily: "inherit",
-                color: "#f5f5f5",
-                backgroundColor: "#171b20",
-                borderRadius: "10px",
-              }}
-            >
-              LATEST RESEARCH
-            </ToggleButton>
-            <ToggleButton
-              value="recaps"
-              sx={{
-                fontFamily: "inherit",
-                color: "#f5f5f5",
-                backgroundColor: "#171b20",
-                borderRadius: "10px",
-              }}
-            >
-              WEEKLY RECAPS
-            </ToggleButton>
-          </ToggleButtonGroup>
-        </ThemeProvider>
-      </div>
       <div className="values55">
+        <div className="title-box">FEATURED CONTENT</div>
+        {/* <h2 id="feat">FEATURED CONTENT</h2> */}
+        <div className="featured">
+          <Card
+            sx={{
+              maxWidth: 600,
+              minHeight: 180,
+              borderRadius: 3,
+              marginBottom: 6,
+              backgroundColor: "#171b20",
+            }}
+            className="dbcard"
+          >
+            <CardActionArea
+              href={"https://op-governance.vercel.app/"}
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                display: "flex",
+                backgroundColor: "#171b20",
+                padding: 1,
+              }}
+            >
+              <CardMedia
+                component="img"
+                height="100"
+                image={dtd}
+                style={styles.media}
+                sx={{
+                  backgroundColor: "#171b20",
+                }}
+                alt="thumbnail"
+              />
+              <CardContent
+                sx={{
+                  backgroundColor: "#171b20",
+                  color: "#f5f5f5",
+                }}
+              >
+                <Typography
+                  gutterBottom
+                  variant="h6"
+                  component="div"
+                  sx={{ fontFamily: "inherit" }}
+                >
+                  Analysis of a DAO to DAO Partnership
+                </Typography>
+                <Typography
+                  variant="body2"
+                  // color="text.secondary"
+                  sx={{ fontFamily: "inherit" }}
+                >
+                  This in-depth research report tells the story of Aave and
+                  Balancer and their deepening partnership. We examine this
+                  symbiotic relationship using Flipside's enterprise data.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+          <Card
+            sx={{
+              maxWidth: 600,
+              minHeight: 180,
+              borderRadius: 3,
+              marginBottom: 6,
+              backgroundColor: "#171b20",
+            }}
+            className="dbcard"
+          >
+            <CardActionArea
+              href={"https://op-governance.vercel.app/"}
+              target="_blank"
+              rel="noopener noreferrer"
+              sx={{
+                display: "flex",
+                backgroundColor: "#171b20",
+                padding: 1,
+              }}
+            >
+              <CardMedia
+                component="img"
+                height="100"
+                image={dtd}
+                style={styles.media}
+                sx={{
+                  backgroundColor: "#171b20",
+                }}
+                alt="thumbnail"
+              />
+              <CardContent
+                sx={{
+                  backgroundColor: "#171b20",
+                  color: "#f5f5f5",
+                }}
+              >
+                <Typography
+                  gutterBottom
+                  variant="h6"
+                  component="div"
+                  sx={{ fontFamily: "inherit" }}
+                >
+                  Analysis of a DAO to DAO Partnership
+                </Typography>
+                <Typography
+                  variant="body2"
+                  // color="text.secondary"
+                  sx={{ fontFamily: "inherit" }}
+                >
+                  This in-depth research report tells the story of Aave and
+                  Balancer and their deepening partnership. We examine this
+                  symbiotic relationship using Flipside's enterprise data.
+                </Typography>
+              </CardContent>
+            </CardActionArea>
+          </Card>
+        </div>
         {alignment === "research" ? (
           <>
             <div className="research-cards">
@@ -259,6 +362,39 @@ function Research() {
             </div>
           </>
         )}
+        <div className="toggler">
+          <ThemeProvider theme={theme}>
+            <ToggleButtonGroup
+              color="neutral"
+              value={alignment}
+              exclusive
+              onChange={handleChange}
+            >
+              <ToggleButton
+                value="research"
+                sx={{
+                  fontFamily: "inherit",
+                  color: "#f5f5f5",
+                  backgroundColor: "#171b20",
+                  borderRadius: "10px",
+                }}
+              >
+                LATEST RESEARCH
+              </ToggleButton>
+              <ToggleButton
+                value="recaps"
+                sx={{
+                  fontFamily: "inherit",
+                  color: "#f5f5f5",
+                  backgroundColor: "#171b20",
+                  borderRadius: "10px",
+                }}
+              >
+                WEEKLY RECAPS
+              </ToggleButton>
+            </ToggleButtonGroup>
+          </ThemeProvider>
+        </div>
       </div>
       {/* </Fade> */}
     </div>

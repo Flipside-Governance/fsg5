@@ -137,7 +137,7 @@ function Landing() {
             // offset={-100}
             duration={500}
           >
-            CONTACT US
+            COLLABORATE
           </Link>
         </div>
         {/* <DarkModeSwitch

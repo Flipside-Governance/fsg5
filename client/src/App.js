@@ -269,7 +269,7 @@ function App() {
           >
             <Tooltip
               TransitionComponent={Zoom}
-              title="CONTACT US"
+              title="COLLABORATE"
               placement="left"
               componentsProps={{
                 tooltip: {

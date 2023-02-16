@@ -22,91 +22,94 @@ function Contact() {
         style={{ transitionDelay: "100ms" }}
       > */}
       <div>
-        <h1 className="bigletters">CONTACT US</h1>
+        <h1 className="bigletters">COLLABORATE WITH US</h1>
         <div className="typewriter4">
           <p className="type2">
-            Want to get in touch? Drop us a note below! We'd be happy to chat
-            with you about the future of decentralized organizations.
+            Want to get in touch? Interested in collaborating with us? Drop us a
+            note below!
           </p>
         </div>
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
-      <div className="contact-main">
-        <div className="contact-logo">
-          <img src={fsgwhite2} className="ct-logo" alt="fsglogo" />
-          <div className="socials-ct">
-            <a
-              href="https://twitter.com/flipsidegov"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faTwitter}
-                color="#f0ffff"
-                size="lg"
-                className="iconos"
-              />
-            </a>
-            <a
-              href="https://medium.com/flipside-governance"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faMedium}
-                color="#f0ffff"
-                size="lg"
-                className="iconos"
-              />
-            </a>
-            <a
-              href="https://medium.com/flipside-governance"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faTelegram}
-                color="#f0ffff"
-                size="lg"
-                className="iconos"
-              />
-            </a>
-            <a
-              href="https://medium.com/flipside-governance"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon
-                icon={faEnvelope}
-                color="#f0ffff"
-                size="lg"
-                className="iconos"
-              />
-            </a>
+      <div className="values">
+        <div className="title-box">CONTACT FORM</div>
+        <div className="contact-main">
+          <div className="contact-logo">
+            <img src={fsgwhite2} className="ct-logo" alt="fsglogo" />
+            <div className="socials-ct">
+              <a
+                href="https://twitter.com/flipsidegov"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTwitter}
+                  color="#f0ffff"
+                  size="lg"
+                  className="iconos"
+                />
+              </a>
+              <a
+                href="https://medium.com/flipside-governance"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faMedium}
+                  color="#f0ffff"
+                  size="lg"
+                  className="iconos"
+                />
+              </a>
+              <a
+                href="https://medium.com/flipside-governance"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  color="#f0ffff"
+                  size="lg"
+                  className="iconos"
+                />
+              </a>
+              <a
+                href="https://medium.com/flipside-governance"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  color="#f0ffff"
+                  size="lg"
+                  className="iconos"
+                />
+              </a>
+            </div>
           </div>
-        </div>
-        <div className="contact-form">
-          <form>
-            <input
-              name="name"
-              type="text"
-              class="feedback-input"
-              placeholder="Name"
-            />
-            <input
-              name="email"
-              type="text"
-              class="feedback-input"
-              placeholder="Email"
-            />
-            <textarea
-              name="text"
-              class="feedback-input"
-              placeholder="Message"
-            ></textarea>
-            <input type="submit" value="SUBMIT" />
-          </form>
+          <div className="contact-form">
+            <form>
+              <input
+                name="name"
+                type="text"
+                class="feedback-input"
+                placeholder="Name"
+              />
+              <input
+                name="email"
+                type="text"
+                class="feedback-input"
+                placeholder="Email"
+              />
+              <textarea
+                name="text"
+                class="feedback-input"
+                placeholder="Message"
+              ></textarea>
+              <input type="submit" value="SUBMIT" />
+            </form>
+          </div>
         </div>
       </div>
       {/* </Fade> */}

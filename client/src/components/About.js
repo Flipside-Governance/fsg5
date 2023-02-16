@@ -37,9 +37,9 @@ function About() {
           <p className="type2" id="abt1">
             We are a full-time professional delegate and DAO governance team
             dedicated to improving how DAOs operate across the entire Web3
-            ecosystem. <br/> <br/> Our team values rational, authentic discourse &
-            decision-making, seeking open dialogue to reach the best outcomes
-            for our partners.
+            ecosystem. <br /> <br /> Our team values rational, authentic
+            discourse & decision-making, seeking open dialogue to reach the best
+            outcomes for our partners.
           </p>
         </div>
       </div>
@@ -61,7 +61,7 @@ function About() {
                   icon={faTwitter}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
               <a
@@ -73,7 +73,7 @@ function About() {
                   icon={faTelegram}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
             </div>
@@ -93,7 +93,7 @@ function About() {
                   icon={faTwitter}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
               <a
@@ -105,7 +105,7 @@ function About() {
                   icon={faTelegram}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
             </div>
@@ -125,7 +125,7 @@ function About() {
                   icon={faTwitter}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
               <a
@@ -137,7 +137,7 @@ function About() {
                   icon={faTelegram}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
             </div>
@@ -157,7 +157,7 @@ function About() {
                   icon={faTwitter}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
               <a
@@ -169,7 +169,7 @@ function About() {
                   icon={faTelegram}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
             </div>
@@ -189,7 +189,7 @@ function About() {
                   icon={faTwitter}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
               <a
@@ -201,7 +201,7 @@ function About() {
                   icon={faTelegram}
                   color="#f0ffff"
                   size="lg"
-                  className="iconos"
+                  className="iconos66"
                 />
               </a>
             </div>

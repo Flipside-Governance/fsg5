@@ -45,6 +45,7 @@ function Dashboards() {
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
       <div className="values77">
+        <div className="title-box">FREE TOOLS</div>
         <div className="dashb">
           <div className="dbleft">
             <Card
@@ -213,7 +214,8 @@ function Dashboards() {
                   >
                     This dashboard was built to help the Marinade community gain
                     a better understanding of protocol governance and the MNDE
-                    token.
+                    token. It also identifies the most popular Solana
+                    validators.
                   </Typography>
                 </CardContent>
               </CardActionArea>
