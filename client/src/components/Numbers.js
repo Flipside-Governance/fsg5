@@ -38,7 +38,7 @@ function About() {
                 size="3x"
                 className="iconos4"
               />
-              <h1>10</h1>
+              <h1>11</h1>
             </div>
             <h2>Protocol Partners</h2>
           </div>

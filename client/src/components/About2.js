@@ -25,6 +25,7 @@ import osmogray from "../logos/osmogray.png";
 import mdaogray from "../logos/metricsdao.png";
 import evmosgray from "../logos/evmosgray.png";
 import arrow from "../logos/greenarrow.png";
+import arrowbit from "../logos/arrowbit.png";
 
 function About() {
   return (
@@ -143,13 +144,10 @@ function About() {
         </div>
         <div class="shadow">
           <div className="chevron">
-            <img src={arrow} alt="arrow" />
+            <img src={arrowbit} alt="arrow" />
           </div>
-          <div className="chevron">
-            <img src={arrow} alt="arrow" />
-          </div>
-          <div className="chevron">
-            <img src={arrow} alt="arrow" />
+          <div className="chevron2">
+            <img src={arrowbit} alt="arrow" />
           </div>
         </div>
         <div className="values3">

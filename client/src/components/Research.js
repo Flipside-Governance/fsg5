@@ -28,7 +28,7 @@ function Research() {
   const theme = createTheme({
     palette: {
       neutral: {
-        main: "#39ff14",
+        main: "#08f28a",
       },
     },
   });
