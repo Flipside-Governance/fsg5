@@ -26,7 +26,7 @@ function Research() {
   const theme = createTheme({
     palette: {
       neutral: {
-        main: "#5cede5",
+        main: "#39ff14",
       },
     },
   });
@@ -82,46 +82,46 @@ function Research() {
           <p className="type2">
             By leveraging our experience in DeFi, political science, traditional
             finance, and data engineering, we are uniquely positioned to help
-            DAOs scale. We publish in-depth research on a weekly basis.
+            DAOs scale. <br/> <br/> We publish in-depth research on a weekly basis.
           </p>
         </div>
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
-      <div className="values55">
-        <div className="toggler">
-          <ThemeProvider theme={theme}>
-            <ToggleButtonGroup
-              color="neutral"
-              value={alignment}
-              exclusive
-              onChange={handleChange}
+      <div className="toggler">
+        <ThemeProvider theme={theme}>
+          <ToggleButtonGroup
+            color="neutral"
+            value={alignment}
+            exclusive
+            onChange={handleChange}
+          >
+            <ToggleButton
+              value="research"
+              sx={{
+                fontFamily: "inherit",
+                color: "#f5f5f5",
+                backgroundColor: "#171b20",
+                borderRadius: "10px",
+              }}
             >
-              <ToggleButton
-                value="research"
-                sx={{
-                  fontFamily: "inherit",
-                  color: "#f5f5f5",
-                  backgroundColor: "#171b20",
-                  borderRadius: "10px",
-                }}
-              >
-                LATEST RESEARCH
-              </ToggleButton>
-              <ToggleButton
-                value="recaps"
-                sx={{
-                  fontFamily: "inherit",
-                  color: "#f5f5f5",
-                  backgroundColor: "#171b20",
-                  borderRadius: "10px",
-                }}
-              >
-                WEEKLY ACTIVITY
-              </ToggleButton>
-            </ToggleButtonGroup>
-          </ThemeProvider>
-        </div>
+              LATEST RESEARCH
+            </ToggleButton>
+            <ToggleButton
+              value="recaps"
+              sx={{
+                fontFamily: "inherit",
+                color: "#f5f5f5",
+                backgroundColor: "#171b20",
+                borderRadius: "10px",
+              }}
+            >
+              WEEKLY RECAPS
+            </ToggleButton>
+          </ToggleButtonGroup>
+        </ThemeProvider>
+      </div>
+      <div className="values55">
         {alignment === "research" ? (
           <>
             <div className="research-cards">

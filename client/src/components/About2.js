@@ -22,6 +22,8 @@ import mkrgray from "../logos/mkrgray.png";
 import mndegray from "../logos/mndegray.png";
 import opgray from "../logos/opgray.png";
 import osmogray from "../logos/osmogray.png";
+import mdaogray from "../logos/metricsdao.png";
+import evmosgray from "../logos/evmosgray.png";
 
 function About() {
   return (
@@ -48,7 +50,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faBookOpenReader}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -61,7 +63,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faChartSimple}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -74,7 +76,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faLandmark}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -89,7 +91,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faScroll}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -102,7 +104,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faGear}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -115,7 +117,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faCheckToSlot}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -128,7 +130,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faHandshakeSimple}
                   color="#f0ffff"
-                  size="xl"
+                  size="2xl"
                   className="iconos"
                 />
               </div>
@@ -149,12 +151,14 @@ function About() {
             <img src={mkrgray} className="plogos" alt="maker" />
             <img src={opgray} className="plogos" alt="op" />
             <img src={hopgray} className="xlogos" alt="hop" />
+            <img src={mdaogray} className="ylogos" alt="mdao" />
           </div>
           <div className="bot-service2">
             <img src={axelargray} className="plogos" alt="axelar" />
-            <img src={osmogray} className="zlogos" alt="osmo" />
             <img src={cosmosgray} className="wlogos" alt="cosmos" />
+            <img src={osmogray} className="zlogos" alt="osmo" />
             <img src={mndegray} className="plogos" alt="mnde" />
+            <img src={evmosgray} className="plogos" alt="evmos" />
             <img src={junogray} className="alogos" alt="juno" />
           </div>
         </div>
