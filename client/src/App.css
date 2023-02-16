@@ -232,12 +232,22 @@ body {
 .type {
   font-size: 90px;
   font-weight: bold;
-  white-space: pre-wrap;
 }
 
 .type-cursor {
-  font-size: 60px;
-  display: none;
+  font-size: 90px;
+  /* color: #39ff14; */
+  animation: blink 0.75s step-end infinite;
+  /* display: none; */
+}
+@keyframes blink {
+  from,
+  to {
+    color: transparent;
+  }
+  50% {
+    color: #39ff14;
+  }
 }
 
 .socialscroll {

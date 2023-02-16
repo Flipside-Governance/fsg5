@@ -167,6 +167,7 @@ function Landing() {
               }}
               options={{
                 delay: 100,
+                cursor: "|",
                 wrapperClassName: "type",
                 cursorClassName: "type-cursor",
               }}
