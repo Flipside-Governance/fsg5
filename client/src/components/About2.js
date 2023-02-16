@@ -24,6 +24,7 @@ import opgray from "../logos/opgray.png";
 import osmogray from "../logos/osmogray.png";
 import mdaogray from "../logos/metricsdao.png";
 import evmosgray from "../logos/evmosgray.png";
+import arrow from "../logos/greenarrow.png";
 
 function About() {
   return (
@@ -141,8 +142,15 @@ function About() {
           </div>
         </div>
         <div class="shadow">
-          <div class="triangle-wrapper"></div>
-          <div class="triangle-wrapper2"></div>
+          <div className="chevron">
+            <img src={arrow} alt="arrow" />
+          </div>
+          <div className="chevron">
+            <img src={arrow} alt="arrow" />
+          </div>
+          <div className="chevron">
+            <img src={arrow} alt="arrow" />
+          </div>
         </div>
         <div className="values3">
           <div className="title-box">OUR PARTNERS</div>
