@@ -195,7 +195,9 @@ function Research() {
               className="dbcard"
             >
               <CardActionArea
-                href={"http://fscrypto.co/dao-to-dao-analysis"}
+                href={
+                  "https://medium.com/flipside-governance/velodrome-optimizing-the-liquidity-flywheel-2f058fd8fc43"
+                }
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{
