@@ -783,7 +783,9 @@ body {
   justify-content: space-between;
   height: 50px;
   margin-top: 100px;
-  font-size: small;
+  font-size: 14px;
+  border-top: 0.05px solid #363636;
+  padding-top: 30px;
 }
 
 #home {
@@ -1167,6 +1169,21 @@ textarea {
   transform: scale(1.1);
 }
 
+.aalogos {
+  width: 211px;
+  height: 39px;
+  transition: 0.4s ease-out;
+}
+
+.aalogos:hover {
+  width: 211px;
+  height: 39px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 .ylogos {
   width: 251px;
   height: 41px;
@@ -1175,6 +1192,21 @@ textarea {
 
 .ylogos:hover {
   width: 251px;
+  height: 41px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.cclogos {
+  width: 270px;
+  height: 41px;
+  transition: 0.4s ease-out;
+}
+
+.cclogos:hover {
+  width: 270px;
   height: 41px;
   cursor: pointer;
   transition: 0.4s ease-out;
@@ -1236,6 +1268,21 @@ textarea {
 .wlogos:hover {
   width: 221px;
   height: 48px;
+  cursor: pointer;
+  transition: 0.4s ease-out;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.sxlogos {
+  width: 221px;
+  height: 50px;
+  transition: 0.4s ease-out;
+}
+
+.sxlogos:hover {
+  width: 221px;
+  height: 50px;
   cursor: pointer;
   transition: 0.4s ease-out;
   -webkit-transform: scale(1.1);

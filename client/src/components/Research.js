@@ -101,10 +101,9 @@ function Research() {
         <h1 className="bigletters">RESEARCH & ANALYSIS</h1>
         <div className="typewriter2" id="searchy">
           <p className="type2">
-            Leveraging expertise in DeFi, political science, traditional
-            finance, and data engineering, our research is designed to help DAOs
-            scale. Nearly 5,000 readers benefit from this in-depth research on a
-            quarterly basis.
+            Leveraging expertise in DeFi, Political Science, Traditional
+            Finance, and Data Engineering, our research informs nearly 5,000
+            readers on a quarterly basis.
           </p>
         </div>
       </div>
@@ -178,7 +177,7 @@ function Research() {
           </div>
         </div>
         <div className="lrfeat">
-          <p id="featu">FEATURED</p>
+          {/* <p id="featu">FEATURED</p> */}
           <div className="featured-cards">
             <Card
               sx={{

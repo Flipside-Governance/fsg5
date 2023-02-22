@@ -15,22 +15,21 @@ function Delegate() {
         <h1 className="bigletters">DELEGATE TO FLIPSIDE</h1>
         <div className="typewriter2">
           <p className="type2" id="dgy">
-            Through active participation, we've developed key understandings
-            around the needs and flow of information in the governance process.
-            Let's improve DAOs together.
+            Through active contributions, we've developed a deep understanding
+            of how governance processes scale. Let's improve DAOs together.
           </p>
         </div>
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
       <div className="values">
-        <div className="title-box">DELEGATE TOKENS</div>
+        <div className="title-box">DELEGATE</div>
         <div class="container2">
           <div class="card2">
             <div class="face face1">
               <div class="content">
                 <img src={mkr} alt="mkr" />
-                <h3>MakerDAO</h3>
+                <h3>MAKERDAO</h3>
               </div>
             </div>
             <div class="face face2">
@@ -51,7 +50,7 @@ function Delegate() {
             <div class="face face1">
               <div class="content">
                 <img src={aave} alt="aave" />
-                <h3>Aave</h3>
+                <h3>AAVE</h3>
               </div>
             </div>
             <div class="face face2">
@@ -72,7 +71,7 @@ function Delegate() {
             <div class="face face1">
               <div class="content">
                 <img src={op} alt="op" />
-                <h3>Optimism</h3>
+                <h3>OPTIMISM</h3>
               </div>
             </div>
             <div class="face face2">
@@ -93,7 +92,7 @@ function Delegate() {
             <div class="face face1">
               <div class="content">
                 <img src={hop} alt="hop" />
-                <h3>Hop</h3>
+                <h3>HOP</h3>
               </div>
             </div>
             <div class="face face2">

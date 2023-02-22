@@ -27,8 +27,8 @@ function Contact() {
         <h1 className="bigletters">COLLABORATE WITH US</h1>
         <div className="typewriter4">
           <p className="type2">
-            Want to get in touch? Interested in collaborating with us? Drop us a
-            note below!
+            Want to get in touch? Interested in collaborating? Reach out to us
+            below!
           </p>
         </div>
       </div>

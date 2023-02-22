@@ -46,7 +46,7 @@ function About() {
         </div>
       </div>
       <div className="values3">
-        <div className="title-box">OUR TEAM</div>
+        <div className="title-box">TEAM</div>
         <div className="triple">
           <div className="profile">
             <div className="pfpbox">

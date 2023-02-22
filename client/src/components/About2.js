@@ -44,7 +44,7 @@ function About() {
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
       <div>
         <div className="values3">
-          <div className="title-box">OUR SERVICES</div>
+          <div className="title-box">SERVICES</div>
           <div className="top-service">
             <div className="service">
               <div className="iconhouse">
@@ -150,13 +150,13 @@ function About() {
           </div>
         </div>
         <div className="values3">
-          <div className="title-box">OUR PARTNERS</div>
+          <div className="title-box">PARTNERS</div>
           <div className="top-service2">
             <img src={aavegray} className="alogos" alt="aave" />
             <img src={mkrgray} className="plogos" alt="maker" />
             <img src={opgray} className="plogos" alt="op" />
-            <img src={osmogray} className="zlogos" alt="osmo" />
-            <img src={mdaogray} className="ylogos" alt="mdao" />
+            <img src={osmogray} className="sxlogos" alt="osmo" />
+            <img src={mdaogray} className="cclogos" alt="mdao" />
           </div>
           <div className="bot-service2">
             <img src={axelargray} className="plogos" alt="axelar" />

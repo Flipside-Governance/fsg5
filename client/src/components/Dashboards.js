@@ -36,15 +36,15 @@ function Dashboards() {
         <h1 className="bigletters">TOOLS & DASHBOARDS</h1>
         <div className="typewriter2" id="tooly">
           <p className="type2">
-            We build tools to help users better understand protocol governance,
-            voting power, and trends in voting activity.
+            We build tools that open up governance, helping users better
+            understand DAO decision-making and trends in voting activity.
           </p>
         </div>
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
       <div className="values77">
-        <div className="title-box">FREE TOOLS</div>
+        <div className="title-box">TOOLS & DASHBOARDS</div>
         <div className="dashb">
           <div className="dbleft">
             <Card
@@ -100,9 +100,8 @@ function Dashboards() {
                     // color="text.secondary"
                     sx={{ fontFamily: "inherit" }}
                   >
-                    Built with Flipside Crypto's ShroomDK. This dashboard was
-                    designed to track delegation & voting activity on the
-                    Optimism network.
+                    Tracking delegation, voting power, & proposal activity on
+                    Optimism. Built with Flipside's ShroomDK.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -274,7 +273,7 @@ function Dashboards() {
                     component="div"
                     sx={{ fontFamily: "inherit" }}
                   >
-                    New Dashboard Coming Soon(TM)
+                    New Tools Coming Soon(TM)
                   </Typography>
                   <Typography
                     variant="body2"
