@@ -37,7 +37,7 @@ function Delegate() {
               <div class="content2">
                 <p>Flipside is a top 10 delegate by total voting power.</p>
                 <a
-                  href="https://vote.makerdao.com/address/0x84b05b0a30b6ae620f393d1037f217e607ad1b96#delegate-credentials"
+                  href="https://vote.makerdao.com/address/0x222d46d1229036c7bb6ea3f453406792ca3c3ea2#delegate-credentials"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hoverjawn"
@@ -100,7 +100,7 @@ function Delegate() {
               <div class="content2">
                 <p>Flipside is a top 20 delegate by total voting power.</p>
                 <a
-                  href="https://www.tally.xyz/gov/hop"
+                  href="https://www.tally.xyz/profile/flipsidecrypto.eth?governanceId=eip155:1:0xed8Bdb5895B8B7f9Fdb3C087628FD8410E853D48"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hoverjawn"
