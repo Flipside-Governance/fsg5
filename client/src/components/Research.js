@@ -229,7 +229,7 @@ function Research() {
                     component="div"
                     sx={{ fontFamily: "inherit" }}
                   >
-                    Velodrome | Optimizing the Liquidity Flywheel
+                    Optimizing the Liquidity Flywheel
                   </Typography>
                   <Typography
                     variant="body2"
