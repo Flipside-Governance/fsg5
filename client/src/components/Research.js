@@ -15,6 +15,7 @@ import "react-multi-carousel/lib/styles.css";
 import optoken from "../logos/optoken.png";
 import dtd from "../logos/dtd.png";
 import pone from "../logos/pone.png";
+import velo from "../logos/velo.jpeg";
 
 function Research() {
   const [blogData, setBlogData] = useState([]);
@@ -207,7 +208,7 @@ function Research() {
                 <CardMedia
                   component="img"
                   height="500"
-                  image={pone}
+                  image={velo}
                   style={styles.media}
                   sx={{
                     backgroundColor: "#171b20",
@@ -226,16 +227,16 @@ function Research() {
                     component="div"
                     sx={{ fontFamily: "inherit" }}
                   >
-                    Analysis of a DAO to DAO Partnership
+                    Velodrome | Optimizing the Liquidity Flywheel
                   </Typography>
                   <Typography
                     variant="body2"
                     // color="text.secondary"
                     sx={{ fontFamily: "inherit" }}
                   >
-                    This in-depth research report tells the story of Aave and
-                    Balancer and their deepening partnership. We examine this
-                    symbiotic relationship using Flipside's enterprise data.
+                    In this article, we explore why Solidly failed, what makes
+                    Velodrome different, and how we can track the health of the
+                    protocol to understand if the flywheel is working.
                   </Typography>
                 </CardContent>
               </CardActionArea>
