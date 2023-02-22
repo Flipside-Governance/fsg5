@@ -10,6 +10,7 @@ import {
   // faMicrochip,
   // faChessRook,
   faDiceD20,
+  faUsersViewfinder,
   // faDiceD6,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -20,9 +21,8 @@ function About() {
         <h1 className="bigletters">BY THE NUMBERS</h1>
         <div className="typewriter2" id="tivy">
           <p className="type2">
-            Our partners trust us to act in their best interest and as good
-            stewards of their communities. We don't take this responsibility
-            lightly.
+            We’ve built a long track record of execution, trust, and integrity
+            with our partners & delegators.
           </p>
         </div>
       </div>
@@ -57,14 +57,14 @@ function About() {
           <div className="big-numbers">
             <div className="inumbers">
               <FontAwesomeIcon
-                icon={faScroll}
+                icon={faUsersViewfinder}
                 color="#f0ffff"
                 size="3x"
                 className="iconos4"
               />
-              <h1>12</h1>
+              <h1>7</h1>
             </div>
-            <h2>Proposals Drafted</h2>
+            <h2>Committee Seats</h2>
           </div>
           <div className="big-numbers">
             <div className="inumbers">

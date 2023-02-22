@@ -10,7 +10,9 @@
 
 /* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"); */
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;600&display=swap");
 
 * {
   margin: 0;
@@ -82,7 +84,7 @@ body {
 
 .navlink8 {
   margin-left: 70px;
-  margin-right: 70px;
+  /* margin-right: 70px; */
   /* font-size: large; */
   text-decoration: none;
   color: #f5f5f5;
@@ -231,16 +233,17 @@ body {
 
 .type {
   font-size: 90px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 .type-cursor {
-  font-size: 90px;
-  /* color: #39ff14; */
-  animation: blink 0.75s step-end infinite;
-  /* display: none; */
+  /* font-size: 90px;
+  color: #39ff14;
+  animation: blink 0.75s step-end infinite; */
+  display: none;
 }
-@keyframes blink {
+
+/* @keyframes blink {
   from,
   to {
     color: transparent;
@@ -248,7 +251,7 @@ body {
   50% {
     color: #08f28a;
   }
-}
+} */
 
 .socialscroll {
   height: 30px;
@@ -333,7 +336,6 @@ body {
 
 .type2 {
   font-size: 25px;
-  display: flex;
   text-align: center;
 }
 
@@ -375,6 +377,16 @@ body {
   border: 2px solid gray;
 }
 
+.values44 {
+  width: 100%;
+  margin: auto;
+  /* margin-top: 100px; */
+  /* height: 450px; */
+  background-color: #000;
+  border-radius: 10px;
+  border: 2px solid gray;
+}
+
 .values88 {
   margin-top: 100px;
   background-color: transparent;
@@ -390,6 +402,48 @@ body {
   background-color: #000;
   border-radius: 10px;
   border: 2px solid gray;
+}
+
+.values755 {
+  margin-top: 100px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  /* margin-bottom: 50px; */
+  height: fit-content;
+  padding: 0px 0px 30px 0px;
+  /* background-color: #000; */
+  border-radius: 10px;
+  /* border: 2px solid gray; */
+  text-align: center;
+}
+
+.featured-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-top: -200px; */
+}
+
+.f-dsc {
+  margin: auto;
+  width: 80%;
+  margin-top: 5px;
+}
+
+#featu {
+  margin-bottom: 45px;
+  /* margin-left: 100px; */
+  font-size: x-large;
+  font-weight: 600;
+  color: #08f28a;
+  writing-mode: tb-rl;
+  transform: rotate(-180deg);
+}
+
+.lrfeat {
+  display: flex;
 }
 
 .values77 {
@@ -419,10 +473,32 @@ body {
   margin-left: 1em;
   display: inline;
   color: #08f28a;
-  background-color: #000;
-  font-size: larger;
-  font-weight: bolder;
-  border-radius: 10px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  font-size: x-large;
+  font-weight: 600;
+  border-radius: 8px;
+}
+
+.title-box-cent {
+  position: relative;
+  top: -0.5em;
+  margin-left: 15em;
+  display: inline;
+  color: #08f28a;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 20%,
+    rgba(19, 19, 19, 1) 100%
+  );
+  font-size: x-large;
+  font-weight: 600;
+  border-radius: 8px;
 }
 
 .valuesh1 {
@@ -446,23 +522,14 @@ body {
 }
 
 .dbcard {
-  box-shadow: 0px 0px 8px 0px #f5f5f5;
   transition: 0.4s ease-out;
+  border: 2px solid transparent;
 }
 
 .dbcard:hover {
-  transform: translateY(-5px);
   transition: 0.4s ease-out;
-  box-shadow: 0px 0px 20px 2px #f5f5f5;
-}
-
-.hoverjawn {
-  box-shadow: 0px 0px 8px 0px #f5f5f5;
-}
-
-.hoverjawn:hover {
-  transition: 0.3s ease;
-  box-shadow: 0px 0px 12px 2px #f5f5f5;
+  transform: translateY(-5px);
+  border: 2px solid #08f28a;
 }
 
 .container1 {
@@ -594,7 +661,7 @@ body {
 }
 
 .container2 .card2 .face.face1 .content {
-  opacity: 0.2;
+  opacity: 1;
 }
 
 .container2 .card2:hover .face.face1 .content {
@@ -650,16 +717,19 @@ body {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
   padding: 5px;
   color: #f5f5f5;
   background: #000;
-  border: 2px solid #000;
+  border: 2px solid transparent;
+  transition: 0.4s ease-out;
 }
 
 .container2 .card2 .face.face2 .content2 a:hover {
   background: #000;
   color: #f5f5f5;
+  border: 2px solid #08f28a;
+  transition: 0.4s ease-out;
 }
 
 .TimelineIndicator_container {
@@ -707,7 +777,7 @@ body {
 }
 
 .breaker2 {
-  width: 85%;
+  /* width: 85%; */
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -733,6 +803,7 @@ body {
   height: fit-content;
   width: 100%;
   margin: auto;
+  margin-bottom: 10%;
   scroll-snap-align: start;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -742,6 +813,7 @@ body {
   height: fit-content;
   width: 100%;
   margin: auto;
+  margin-bottom: 10%;
   scroll-snap-align: start;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -751,6 +823,7 @@ body {
   height: fit-content;
   width: 100%;
   margin: auto;
+  margin-bottom: 10%;
   scroll-snap-align: start;
   /* background-color: #000; */
   padding-top: 100px;
@@ -761,6 +834,7 @@ body {
   height: fit-content;
   width: 100%;
   margin: auto;
+  margin-bottom: 10%;
   scroll-snap-align: start;
   /* background-color: #000; */
   padding-top: 100px;
@@ -771,6 +845,7 @@ body {
   height: fit-content;
   width: 85%;
   margin: auto;
+  margin-bottom: 10%;
   scroll-snap-align: start;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -780,7 +855,7 @@ body {
   height: fit-content;
   width: 85%;
   margin: auto;
-  margin-bottom: 5%;
+  margin-bottom: 10%;
   scroll-snap-align: start;
   /* background-color: #000; */
   padding-top: 100px;
@@ -792,6 +867,7 @@ body {
   width: 85%;
   margin: auto;
   scroll-snap-align: start;
+  padding-bottom: 100px;
 }
 
 #ct {
@@ -809,6 +885,7 @@ body {
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
   /* background-color: #000; */
   border-radius: 10px;
   /* box-shadow: 0px 0px 12px 2px #f5f5f5; */
@@ -866,7 +943,7 @@ textarea {
   padding-bottom: 10px;
   transition: all 0.3s;
   margin-top: -4px;
-  font-weight: 700;
+  font-weight: bold;
 }
 [type="submit"]:hover {
   background: #03c76f;
@@ -892,7 +969,7 @@ textarea {
 
 .service {
   height: 80px;
-  width: 250px;
+  width: 300px;
   border: 2px solid gray;
   display: flex;
   border-radius: 10px;
@@ -901,15 +978,13 @@ textarea {
 
 .service:hover {
   height: 80px;
-  width: 250px;
+  width: 300px;
   border: 2px solid #08f28a;
   display: flex;
   border-radius: 10px;
   transition: 0.3s;
   transform: translateY(-5px);
   transition: 0.4s ease-out;
-  /* box-shadow: 0px 0px 8px 2px #f5f5f5; */
-  /* color: #39ff14; */
 }
 
 .top-service {
@@ -940,15 +1015,24 @@ textarea {
 
 .iconhouse {
   padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .service-title {
-  /* margin-left: -10px; */
+  /* margin-left: 10px; */
+  margin: auto;
   text-align: center;
   display: flex;
+  /* justify-content: center; */
   align-items: center;
   padding: 10px;
   font-size: small;
+}
+
+.service-title h2 {
+  font-weight: 200;
 }
 
 /* @-webkit-keyframes pulsate-fwd {
@@ -1163,7 +1247,8 @@ textarea {
   width: 90%;
   display: flex;
   justify-content: space-between;
-  margin-top: 45px;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .big-numbers {
@@ -1178,10 +1263,12 @@ textarea {
   color: #08f28a;
   font-size: 80px;
   margin-left: 20px;
+  font-weight: 200;
 }
 
 .big-numbers h2 {
   margin-top: 10px;
+  font-weight: 200;
 }
 
 .inumbers {
@@ -1202,7 +1289,7 @@ textarea {
 
 .profile h3 {
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: normal;
   margin-bottom: 10px;
 }
 
@@ -1217,9 +1304,9 @@ textarea {
   border: 2px solid transparent;
   margin-bottom: 10px;
   transition: 0.4s ease-out;
-  filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
+  /* filter: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'><filter id='grayscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0'/></filter></svg>#grayscale");
   filter: gray;
-  -webkit-filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); */
 }
 
 .pfp:hover {
@@ -1232,8 +1319,8 @@ textarea {
   transition: 0.4s ease-out;
   margin-bottom: 10px;
   cursor: pointer;
-  filter: none;
-  -webkit-filter: grayscale(0%);
+  /* filter: none;
+  -webkit-filter: grayscale(0%); */
 }
 
 .featured {
@@ -1245,5 +1332,9 @@ textarea {
 }
 
 #feat {
+  color: #08f28a;
+}
+
+.span {
   color: #08f28a;
 }

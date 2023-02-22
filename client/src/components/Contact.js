@@ -12,6 +12,8 @@ import {
 
 import { Fade, Slide } from "@mui/material";
 
+import ScrollButton2 from "./ScrollButton2";
+
 function Contact() {
   return (
     <div className="values88">
@@ -32,7 +34,7 @@ function Contact() {
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
-      <div className="values">
+      <div className="values44">
         <div className="title-box">CONTACT FORM</div>
         <div className="contact-main">
           <div className="contact-logo">
@@ -63,7 +65,7 @@ function Contact() {
                 />
               </a>
               <a
-                href="https://medium.com/flipside-governance"
+                href="https://t.me/avimeyers"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,7 +77,7 @@ function Contact() {
                 />
               </a>
               <a
-                href="https://medium.com/flipside-governance"
+                href="mailto:governance@flipsidecrypto.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -113,6 +115,7 @@ function Contact() {
         </div>
       </div>
       {/* </Fade> */}
+      <ScrollButton2 />
     </div>
   );
 }

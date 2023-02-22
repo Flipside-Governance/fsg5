@@ -35,11 +35,13 @@ function About() {
         <h1 className="bigletters">WHO WE ARE</h1>
         <div className="typewriter2">
           <p className="type2" id="abt1">
-            We are a full-time professional delegate and DAO governance team
-            dedicated to improving how DAOs operate across the entire Web3
-            ecosystem. <br /> <br /> Our team values rational, authentic
-            discourse & decision-making, seeking open dialogue to reach the best
-            outcomes for our partners.
+            We are a full-time professional delegate and DAO governance team.{" "}
+            Our team values{" "}
+            <span style={{ color: "#08f28a" }}>rational</span>,{" "}
+            <span style={{ color: "#08f28a" }}>authentic</span> ideas,{" "}
+            <span style={{ color: "#08f28a" }}>open</span> dialogue, and{" "}
+            <span style={{ color: "#08f28a" }}>data-driven</span>{" "}
+            decision-making.
           </p>
         </div>
       </div>
@@ -53,7 +55,7 @@ function About() {
             <h3>Avi Meyers</h3>
             <div className="socials22">
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://twitter.com/avimeyers"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -65,7 +67,7 @@ function About() {
                 />
               </a>
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://t.me/avimeyers"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -85,7 +87,7 @@ function About() {
             <h3>Fig Gowen</h3>
             <div className="socials22">
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://twitter.com/francisgowen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -97,7 +99,7 @@ function About() {
                 />
               </a>
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://t.me/francisgowen"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -117,7 +119,7 @@ function About() {
             <h3>Jessica Huhnke</h3>
             <div className="socials22">
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://twitter.com/web3_analyst"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -129,7 +131,7 @@ function About() {
                 />
               </a>
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://t.me/jkh1023"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -149,7 +151,7 @@ function About() {
             <h3>Raphael Spannocchi</h3>
             <div className="socials22">
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://twitter.com/raphbaph"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -161,7 +163,7 @@ function About() {
                 />
               </a>
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://t.me/raphbaph"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -181,7 +183,7 @@ function About() {
             <h3>Ian Dobbins</h3>
             <div className="socials22">
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://twitter.com/dawbyinz"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -193,7 +195,7 @@ function About() {
                 />
               </a>
               <a
-                href="https://twitter.com/flipsidegov"
+                href="https://t.me/d0bby5"
                 target="_blank"
                 rel="noopener noreferrer"
               >

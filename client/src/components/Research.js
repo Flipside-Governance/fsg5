@@ -14,6 +14,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import optoken from "../logos/optoken.png";
 import dtd from "../logos/dtd.png";
+import pone from "../logos/pone.png";
 
 function Research() {
   const [blogData, setBlogData] = useState([]);
@@ -35,8 +36,8 @@ function Research() {
 
   const styles = {
     media: {
-      height: 90,
-      width: 90,
+      height: 180,
+      width: 150,
       borderRadius: 10,
     },
     media1: {
@@ -99,19 +100,154 @@ function Research() {
         <h1 className="bigletters">RESEARCH & ANALYSIS</h1>
         <div className="typewriter2" id="searchy">
           <p className="type2">
-            By leveraging our experience in DeFi, political science, traditional
-            finance, and data engineering, we are uniquely positioned to help
-            DAOs scale. <br /> <br /> We publish in-depth research on a weekly
-            basis.
+            Leveraging expertise in DeFi, political science, traditional
+            finance, and data engineering, our research is designed to help DAOs
+            scale. Nearly 5,000 readers benefit from this in-depth research on a
+            quarterly basis.
           </p>
         </div>
       </div>
       {/* </Slide> */}
       {/* <Fade in={true} timeout={4000} style={{ transitionDelay: "100ms" }}> */}
+      <div className="values755">
+        <div className="lrfeat">
+          <p id="featu">FEATURED</p>
+          <div className="featured-cards">
+            <Card
+              sx={{
+                maxWidth: 650,
+                minHeight: 180,
+                borderRadius: 3,
+                marginBottom: 6,
+                backgroundColor: "#171b20",
+                border: "2px solid #08f28a",
+                transition: "0.4s ease-out",
+                // marginTop: 4,
+                textAlign: "left",
+              }}
+              className="dbcard"
+            >
+              <CardActionArea
+                href={"http://fscrypto.co/dao-to-dao-analysis"}
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{
+                  display: "flex",
+                  backgroundColor: "#171b20",
+                  padding: 2,
+                  transition: "0.4s ease-out",
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  height="500"
+                  image={pone}
+                  style={styles.media}
+                  sx={{
+                    backgroundColor: "#171b20",
+                  }}
+                  alt="thumbnail"
+                />
+                <CardContent
+                  sx={{
+                    backgroundColor: "#171b20",
+                    color: "#f5f5f5",
+                  }}
+                >
+                  <Typography
+                    gutterBottom
+                    variant="h6"
+                    component="div"
+                    sx={{ fontFamily: "inherit" }}
+                  >
+                    Analysis of a DAO to DAO Partnership
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    // color="text.secondary"
+                    sx={{ fontFamily: "inherit" }}
+                  >
+                    This in-depth research report tells the story of Aave and
+                    Balancer and their deepening partnership. We examine this
+                    symbiotic relationship using Flipside's enterprise data.
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </div>
+        </div>
+        <div className="lrfeat">
+          <p id="featu">FEATURED</p>
+          <div className="featured-cards">
+            <Card
+              sx={{
+                maxWidth: 650,
+                minHeight: 180,
+                borderRadius: 3,
+                marginBottom: 6,
+                backgroundColor: "#171b20",
+                border: "2px solid #08f28a",
+                transition: "0.4s ease-out",
+                // marginTop: 4,
+                textAlign: "left",
+              }}
+              className="dbcard"
+            >
+              <CardActionArea
+                href={"http://fscrypto.co/dao-to-dao-analysis"}
+                target="_blank"
+                rel="noopener noreferrer"
+                sx={{
+                  display: "flex",
+                  backgroundColor: "#171b20",
+                  padding: 2,
+                  transition: "0.4s ease-out",
+                }}
+              >
+                <CardMedia
+                  component="img"
+                  height="500"
+                  image={pone}
+                  style={styles.media}
+                  sx={{
+                    backgroundColor: "#171b20",
+                  }}
+                  alt="thumbnail"
+                />
+                <CardContent
+                  sx={{
+                    backgroundColor: "#171b20",
+                    color: "#f5f5f5",
+                  }}
+                >
+                  <Typography
+                    gutterBottom
+                    variant="h6"
+                    component="div"
+                    sx={{ fontFamily: "inherit" }}
+                  >
+                    Analysis of a DAO to DAO Partnership
+                  </Typography>
+                  <Typography
+                    variant="body2"
+                    // color="text.secondary"
+                    sx={{ fontFamily: "inherit" }}
+                  >
+                    This in-depth research report tells the story of Aave and
+                    Balancer and their deepening partnership. We examine this
+                    symbiotic relationship using Flipside's enterprise data.
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+          </div>
+        </div>
+      </div>
+
       <div className="values55">
-        <div className="title-box">FEATURED CONTENT</div>
+        <div className="title-box">FROM OUR BLOG</div>
         {/* <h2 id="feat">FEATURED CONTENT</h2> */}
-        <div className="featured">
+        {/* <div className="featured">
           <Card
             sx={{
               maxWidth: 600,
@@ -119,6 +255,7 @@ function Research() {
               borderRadius: 3,
               marginBottom: 6,
               backgroundColor: "#171b20",
+              transition: "0.4s ease-out",
             }}
             className="dbcard"
           >
@@ -175,6 +312,8 @@ function Research() {
               borderRadius: 3,
               marginBottom: 6,
               backgroundColor: "#171b20",
+              border: "2px solid #08f28a",
+              transition: "0.4s ease-out",
             }}
             className="dbcard"
           >
@@ -185,12 +324,13 @@ function Research() {
               sx={{
                 display: "flex",
                 backgroundColor: "#171b20",
-                padding: 1,
+                padding: 2,
+                transition: "0.4s ease-out",
               }}
             >
               <CardMedia
                 component="img"
-                height="100"
+                height="500"
                 image={dtd}
                 style={styles.media}
                 sx={{
@@ -224,6 +364,39 @@ function Research() {
               </CardContent>
             </CardActionArea>
           </Card>
+        </div> */}
+        <div className="toggler">
+          <ThemeProvider theme={theme}>
+            <ToggleButtonGroup
+              color="neutral"
+              value={alignment}
+              exclusive
+              onChange={handleChange}
+            >
+              <ToggleButton
+                value="research"
+                sx={{
+                  fontFamily: "inherit",
+                  color: "#f5f5f5",
+                  backgroundColor: "#171b20",
+                  borderRadius: "10px",
+                }}
+              >
+                LATEST RESEARCH
+              </ToggleButton>
+              <ToggleButton
+                value="recaps"
+                sx={{
+                  fontFamily: "inherit",
+                  color: "#f5f5f5",
+                  backgroundColor: "#171b20",
+                  borderRadius: "10px",
+                }}
+              >
+                WEEKLY RECAPS
+              </ToggleButton>
+            </ToggleButtonGroup>
+          </ThemeProvider>
         </div>
         {alignment === "research" ? (
           <>
@@ -251,6 +424,7 @@ function Research() {
                         height: 300,
                         borderRadius: 3,
                         backgroundColor: "#171b20",
+                        transition: "0.4s ease-out",
                       }}
                       className="dbcard"
                     >
@@ -317,6 +491,7 @@ function Research() {
                         height: 300,
                         borderRadius: 3,
                         backgroundColor: "#171b20",
+                        transition: "0.4s ease-out",
                       }}
                       className="dbcard"
                     >
@@ -362,39 +537,6 @@ function Research() {
             </div>
           </>
         )}
-        <div className="toggler">
-          <ThemeProvider theme={theme}>
-            <ToggleButtonGroup
-              color="neutral"
-              value={alignment}
-              exclusive
-              onChange={handleChange}
-            >
-              <ToggleButton
-                value="research"
-                sx={{
-                  fontFamily: "inherit",
-                  color: "#f5f5f5",
-                  backgroundColor: "#171b20",
-                  borderRadius: "10px",
-                }}
-              >
-                LATEST RESEARCH
-              </ToggleButton>
-              <ToggleButton
-                value="recaps"
-                sx={{
-                  fontFamily: "inherit",
-                  color: "#f5f5f5",
-                  backgroundColor: "#171b20",
-                  borderRadius: "10px",
-                }}
-              >
-                WEEKLY RECAPS
-              </ToggleButton>
-            </ToggleButtonGroup>
-          </ThemeProvider>
-        </div>
       </div>
       {/* </Fade> */}
     </div>

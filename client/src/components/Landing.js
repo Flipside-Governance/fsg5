@@ -203,7 +203,7 @@ function Landing() {
                   />
                 </a>
                 <a
-                  href="https://medium.com/flipside-governance"
+                  href="https://t.me/avimeyers"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -215,7 +215,7 @@ function Landing() {
                   />
                 </a>
                 <a
-                  href="https://medium.com/flipside-governance"
+                  href="mailto:governance@flipsidecrypto.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

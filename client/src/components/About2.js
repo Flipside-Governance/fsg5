@@ -35,9 +35,8 @@ function About() {
         <h1 className="bigletters">WHAT WE DO</h1>
         <div className="typewriter2" id="servy">
           <p className="type2">
-            Participating in governance goes far beyond acquiring tokens and
-            voting on proposals. Our team provides value in a number of
-            different ways to ensure our partners reach their full potential.
+            Flipside is an ecosystem growth partner. We help DAOs mature through
+            active contribution and essential services.
           </p>
         </div>
       </div>
@@ -52,7 +51,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faBookOpenReader}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -65,7 +64,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faChartSimple}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -78,7 +77,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faLandmark}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -93,7 +92,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faScroll}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -106,7 +105,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faGear}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -119,7 +118,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faCheckToSlot}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -132,7 +131,7 @@ function About() {
                 <FontAwesomeIcon
                   icon={faHandshakeSimple}
                   color="#f0ffff"
-                  size="2xl"
+                  size="3x"
                   className="iconos"
                 />
               </div>
@@ -156,14 +155,14 @@ function About() {
             <img src={aavegray} className="alogos" alt="aave" />
             <img src={mkrgray} className="plogos" alt="maker" />
             <img src={opgray} className="plogos" alt="op" />
-            <img src={hopgray} className="xlogos" alt="hop" />
+            <img src={osmogray} className="zlogos" alt="osmo" />
             <img src={mdaogray} className="ylogos" alt="mdao" />
           </div>
           <div className="bot-service2">
             <img src={axelargray} className="plogos" alt="axelar" />
             <img src={cosmosgray} className="wlogos" alt="cosmos" />
-            <img src={osmogray} className="zlogos" alt="osmo" />
-            <img src={mndegray} className="plogos" alt="mnde" />
+            <img src={hopgray} className="xlogos" alt="hop" />
+            <img src={mndegray} className="ylogos" alt="mnde" />
             <img src={evmosgray} className="plogos" alt="evmos" />
             <img src={junogray} className="alogos" alt="juno" />
           </div>

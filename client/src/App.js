@@ -74,7 +74,7 @@ function App() {
             to="home"
             spy={true}
             smooth={true}
-            // offset={-100}
+            // offset={-50}
             duration={500}
           >
             <Tooltip
@@ -101,7 +101,7 @@ function App() {
             to="about"
             spy={true}
             smooth={true}
-            // offset={-100}
+            offset={-50}
             duration={500}
           >
             <Tooltip
@@ -128,7 +128,7 @@ function App() {
             to="about2"
             spy={true}
             smooth={true}
-            // offset={-100}
+            // offset={-50}
             duration={500}
           >
             <Tooltip
@@ -155,7 +155,7 @@ function App() {
             to="about3"
             spy={true}
             smooth={true}
-            // offset={-100}
+            // offset={-50}
             duration={500}
           >
             <Tooltip
@@ -182,7 +182,7 @@ function App() {
             to="research"
             spy={true}
             smooth={true}
-            // offset={-100}
+            // offset={-50}
             duration={500}
           >
             <Tooltip
@@ -210,7 +210,7 @@ function App() {
             to="dashboards"
             spy={true}
             smooth={true}
-            // offset={-100}
+            // offset={-50}
             duration={500}
           >
             <Tooltip
@@ -237,7 +237,7 @@ function App() {
             to="delegate"
             spy={true}
             smooth={true}
-            // offset={-100}
+            offset={-50}
             duration={500}
           >
             <Tooltip
@@ -264,7 +264,7 @@ function App() {
             to="contact"
             spy={true}
             smooth={true}
-            // offset={-100}
+            offset={-200}
             duration={500}
           >
             <Tooltip
@@ -317,7 +317,6 @@ function App() {
       <div id="contact">
         <Contact />
       </div>
-      <ScrollButton2 />
     </div>
   );
 }

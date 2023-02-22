@@ -36,9 +36,8 @@ function Dashboards() {
         <h1 className="bigletters">TOOLS & DASHBOARDS</h1>
         <div className="typewriter2" id="tooly">
           <p className="type2">
-            We build tools and dashboards to help users gain a better
-            understanding of protocol governance and monitor trends in voting
-            activity.
+            We build tools to help users better understand protocol governance,
+            voting power, and trends in voting activity.
           </p>
         </div>
       </div>
@@ -51,10 +50,13 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
-                minHeight: 180,
+                minHeight: 170,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
+                display: "flex",
+                alignItems: "center",
+                transition: "0.4s ease-out",
               }}
               className="dbcard"
             >
@@ -75,6 +77,7 @@ function Dashboards() {
                   style={styles.media}
                   sx={{
                     backgroundColor: "#171b20",
+                    padding: 2,
                   }}
                   alt="thumbnail"
                 />
@@ -98,8 +101,8 @@ function Dashboards() {
                     sx={{ fontFamily: "inherit" }}
                   >
                     Built with Flipside Crypto's ShroomDK. This dashboard was
-                    designed to track governance activity and OP tokens
-                    delegated on the Optimism network (Ethereum L2).
+                    designed to track delegation & voting activity on the
+                    Optimism network.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -107,10 +110,13 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
-                minHeight: 180,
+                minHeight: 170,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
+                display: "flex",
+                alignItems: "center",
+                transition: "0.4s ease-out",
               }}
               className="dbcard"
             >
@@ -131,6 +137,7 @@ function Dashboards() {
                   style={styles.media}
                   sx={{
                     backgroundColor: "#171b20",
+                    padding: 2,
                   }}
                   alt="thumbnail"
                 />
@@ -154,9 +161,7 @@ function Dashboards() {
                     sx={{ fontFamily: "inherit" }}
                   >
                     Built with Flipside Crypto's ShroomDK. This dashboard was
-                    designed to track governance activity across Snapshot spaces
-                    with charts to monitor trends in usage and leaderboards to
-                    identify the most active communities & contributors.
+                    designed to track voting activity across Snapshot spaces.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -166,10 +171,13 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
-                minHeight: 180,
+                minHeight: 170,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
+                display: "flex",
+                alignItems: "center",
+                transition: "0.4s ease-out",
               }}
               className="dbcard"
             >
@@ -190,6 +198,7 @@ function Dashboards() {
                   style={styles.media1}
                   sx={{
                     backgroundColor: "#171b20",
+                    padding: 2,
                   }}
                   alt="thumbnail"
                 />
@@ -214,8 +223,7 @@ function Dashboards() {
                   >
                     This dashboard was built to help the Marinade community gain
                     a better understanding of protocol governance and the MNDE
-                    token. It also identifies the most popular Solana
-                    validators.
+                    token.
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -223,10 +231,13 @@ function Dashboards() {
             <Card
               sx={{
                 maxWidth: 600,
-                minHeight: 180,
+                minHeight: 170,
                 borderRadius: 3,
                 marginBottom: 6,
                 backgroundColor: "#171b20",
+                display: "flex",
+                alignItems: "center",
+                transition: "0.4s ease-out",
               }}
               className="dbcard"
             >
@@ -247,6 +258,7 @@ function Dashboards() {
                   style={styles.media}
                   sx={{
                     backgroundColor: "#171b20",
+                    padding: 2,
                   }}
                   alt="thumbnail"
                 />
@@ -269,10 +281,8 @@ function Dashboards() {
                     // color="text.secondary"
                     sx={{ fontFamily: "inherit" }}
                   >
-                    Built with Flipside Crypto's ShroomDK. This dashboard was
-                    designed to track governance activity across Snapshot spaces
-                    with charts to monitor trends in usage and leaderboards to
-                    identify the most active communities & contributors.
+                    Built to make governance easier for both validators and
+                    stakers in the Osmosis community.
                   </Typography>
                 </CardContent>
               </CardActionArea>
