@@ -19,7 +19,7 @@ const ScrollButton2 = () => {
       </div>
       <div className="foot-main">
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink"
           to="about"
           spy={true}
@@ -30,7 +30,7 @@ const ScrollButton2 = () => {
           WHO WE ARE
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink"
           to="about2"
           spy={true}
@@ -41,7 +41,7 @@ const ScrollButton2 = () => {
           WHAT WE DO
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink"
           to="about3"
           spy={true}
@@ -52,7 +52,7 @@ const ScrollButton2 = () => {
           STATS
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink"
           to="research"
           spy={true}
@@ -63,7 +63,7 @@ const ScrollButton2 = () => {
           RESEARCH
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink"
           to="dashboards"
           spy={true}
@@ -74,7 +74,7 @@ const ScrollButton2 = () => {
           TOOLS
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink"
           to="delegate"
           spy={true}
@@ -85,7 +85,7 @@ const ScrollButton2 = () => {
           DELEGATE
         </Link>
         <Link
-          activeClass="active"
+          activeClass="active2"
           className="navlink8"
           to="contact"
           spy={true}

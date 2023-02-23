@@ -757,6 +757,10 @@ body {
   transform: scale(1.3);
 }
 
+.active2 {
+  color: #08f28a;
+}
+
 .carooo {
   padding: 20px;
 }
