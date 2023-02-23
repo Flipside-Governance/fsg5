@@ -97,7 +97,7 @@ function Delegate() {
             </div>
             <div class="face face2">
               <div class="content2">
-                <p>Flipside is a top 20 delegate by total voting power.</p>
+                <p>Flipside is a top 30 delegate by total voting power.</p>
                 <a
                   href="https://www.tally.xyz/profile/flipsidecrypto.eth?governanceId=eip155:1:0xed8Bdb5895B8B7f9Fdb3C087628FD8410E853D48"
                   target="_blank"
