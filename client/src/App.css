@@ -224,6 +224,7 @@ body {
 
 .typewriter-land {
   margin: auto;
+  width: fit-content;
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -235,6 +236,7 @@ body {
 .type {
   font-size: 90px;
   font-weight: normal;
+  text-align: center;
 }
 
 .type-cursor {
@@ -246,15 +248,19 @@ body {
 
 #subjawn {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 15px;
   font-weight: normal;
-  font-size: 34px;
-  font-style: italic;
+  /* font-style: italic; */
+  text-align: left;
+  margin-left: -52%;
+  /* font-size: 34px; */
+
+  /* font-style: italic;
   transform: scale(1.5, 1);
   -webkit-transform: scale(1.5, 1);
   -moz-transform: scale(1.5, 1);
   -ms-transform: scale(1.5, 1);
-  -o-transform: scale(1.5, 1);
+  -o-transform: scale(1.5, 1); */
 }
 
 /* @keyframes blink {
