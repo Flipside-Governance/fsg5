@@ -50,7 +50,7 @@ function About() {
                 size="3x"
                 className="iconos4"
               />
-              <h1>300</h1>
+              <h1>750+</h1>
             </div>
             <h2>Votes Submitted</h2>
           </div>
@@ -62,7 +62,7 @@ function About() {
                 size="3x"
                 className="iconos4"
               />
-              <h1>7</h1>
+              <h1>8</h1>
             </div>
             <h2>Committee Seats</h2>
           </div>

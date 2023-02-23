@@ -50,7 +50,7 @@ body {
   margin: auto;
   padding: 30px;
   display: flex;
-  /* justify-content: center; */
+  /* justify-content: space-between; */
 }
 
 .nav-main {
@@ -224,11 +224,12 @@ body {
 
 .typewriter-land {
   margin: auto;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
-  height: 550px;
-  min-height: 70%;
+  align-items: center; */
+  height: 35vh;
+  text-align: center;
+  padding-top: 13%;
 }
 
 .type {
@@ -241,6 +242,11 @@ body {
   color: #39ff14;
   animation: blink 0.75s step-end infinite; */
   display: none;
+}
+
+#subjawn {
+  font-weight: normal;
+  margin-top: 30px;
 }
 
 /* @keyframes blink {
@@ -747,6 +753,8 @@ body {
 
 .active {
   color: #08f28a;
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .carooo {
@@ -790,7 +798,7 @@ body {
 
 #home {
   height: fit-content;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   padding-bottom: 100px;
   /* background-image: url("./logos/fsbw33.png");
   background-position: initial;

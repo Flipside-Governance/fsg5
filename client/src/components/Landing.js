@@ -172,6 +172,13 @@ function Landing() {
                 cursorClassName: "type-cursor",
               }}
             />
+            <Fade
+              in={true}
+              timeout={4000}
+              style={{ transitionDelay: "2100ms" }}
+            >
+              <h2 id="subjawn">DAO SERVICES FROM FLIPSIDE CRYPTO</h2>
+            </Fade>
           </div>
         </div>
         <Fade in={true} timeout={4000} style={{ transitionDelay: "2100ms" }}>
