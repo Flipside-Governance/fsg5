@@ -177,7 +177,7 @@ function Landing() {
               timeout={4000}
               style={{ transitionDelay: "2200ms" }}
             >
-              <h2 id="subjawn">DAO SERVICES FROM FLIPSIDE CRYPTO</h2>
+              <h3 id="subjawn">DAO SERVICES FROM FLIPSIDE CRYPTO</h3>
             </Fade>
           </div>
         </div>
