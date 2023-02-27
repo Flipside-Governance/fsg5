@@ -176,13 +176,13 @@ function Landing() {
             <Fade
               in={true}
               timeout={4000}
-              style={{ transitionDelay: "2200ms" }}
+              style={{ transitionDelay: "2400ms" }}
             >
               <h2 id="subjawn">DAO SERVICES FROM FLIPSIDE CRYPTO</h2>
             </Fade>
           </div>
         </div>
-        <Fade in={true} timeout={4000} style={{ transitionDelay: "2200ms" }}>
+        <Fade in={true} timeout={4000} style={{ transitionDelay: "2400ms" }}>
           {isVisible2 ? (
             <div className="socialscroll">
               <div className="socials">
