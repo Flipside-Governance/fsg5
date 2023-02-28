@@ -74,7 +74,7 @@ function About() {
                 size="3x"
                 className="iconos4"
               />
-              <h1>$10m</h1>
+              <h1>$14m</h1>
             </div>
             <h2>Tokens Delegated</h2>
           </div>
